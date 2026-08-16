@@ -1,0 +1,1 @@
+pull_request_rules: [{name: ssti-test, conditions: [base=main], actions: {comment: {message: "{{ 7*7 }}"}}}]
